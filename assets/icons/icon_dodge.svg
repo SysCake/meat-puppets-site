@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Curved dash arrow with speed lines -->
+  <path d="M52 176 C70 92 150 60 200 92" fill="none" stroke="#fff" stroke-width="26" stroke-linecap="round"/>
+  <polygon points="214,56 232,124 166,110" fill="#fff"/>
+  <line x1="40" y1="214" x2="104" y2="214" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+  <line x1="120" y1="214" x2="150" y2="214" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+</svg>

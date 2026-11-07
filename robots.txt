@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://meatpuppets.syscake.it/sitemap.xml

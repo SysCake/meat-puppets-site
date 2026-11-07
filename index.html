@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meat Puppets with Random Weapons from a Box</title>
+  <meta name="description" content="The 1v1 mobile brawler for iOS and Android: pilot a brainless puppet printed from cricket flour, draw a weapon from THE BOX, and fight for the entertainment of bored trillionaires.">
+  <meta name="theme-color" content="#1B1F3B">
+  <link rel="canonical" href="https://meatpuppets.syscake.it/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Meat Puppets">
+  <meta property="og:title" content="Meat Puppets with Random Weapons from a Box">
+  <meta property="og:description" content="The 1v1 mobile brawler for iOS and Android: pilot a brainless puppet printed from cricket flour, draw a weapon from THE BOX, and fight for the entertainment of bored trillionaires.">
+  <meta property="og:image" content="https://meatpuppets.syscake.it/assets/img/og-card.jpg">
+  <meta property="og:url" content="https://meatpuppets.syscake.it/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/bungee-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/rubik-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-apple" viewBox="0 0 24 24"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M22.018 13.298l-3.919 2.218-3.515-3.493 3.543-3.521 3.891 2.202a1.49 1.49 0 0 1 0 2.594zM1.337.924a1.486 1.486 0 0 0-.112.568v21.017c0 .217.045.419.124.6l11.155-11.087L1.337.924zm12.207 10.065l3.258-3.238L3.45.195a1.466 1.466 0 0 0-.946-.179l11.04 10.973zm0 2.067l-11 10.933c.298.036.612-.016.906-.183l13.324-7.54-3.23-3.21z"/></symbol>
+  <symbol id="i-tri" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+</svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand-link" href="index.html" aria-label="Meat Puppets, home"><img width="480" height="320" src="assets/img/logo-small.webp" alt=""></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span></button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="rulebook.html">The Rulebook</a>
+        <a href="the-box.html">The Box</a>
+        <a href="arenas.html">Arenas</a>
+        <a href="league.html">The League</a>
+        <a class="btn btn--sm" href="index.html#download">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero: the show's title card on a stage, the key art on a marquee billboard -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="beams" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="floor" aria-hidden="true"></div>
+      <div class="goo-layer" aria-hidden="true"></div>
+      <div class="container hero-stage">
+        <div class="hero-logo-wrap">
+          <div class="starburst" aria-hidden="true"></div>
+          <h1 id="hero-title"><img width="1200" height="800" class="hero-logo" src="assets/img/logo.webp" alt="Meat Puppets with Random Weapons from a Box" fetchpriority="high"></h1>
+          <div class="sticker" aria-hidden="true"><span>Free<em>to play!</em></span></div>
+        </div>
+        <p class="hero-tagline"><span>Brainless bodies.</span> <span>Absurd weapons.</span> <span>Bored trillionaires.</span></p>
+        <p class="hero-sub">The one-on-one brawler where you pilot a puppet printed from cricket flour, draw a weapon from THE BOX and fight for the entertainment of the people who own everything.</p>
+        <div class="store-buttons">
+          <a class="store-btn" href="#download" data-store="apple"><svg aria-hidden="true"><use href="#i-apple"/></svg><span><small>Download on the</small><b>App Store</b></span></a>
+          <a class="store-btn" href="#download" data-store="google"><svg aria-hidden="true"><use href="#i-play"/></svg><span><small>Get it on</small><b>Google Play</b></span></a>
+        </div>
+        <div class="hero-art">
+          <div class="bulbs">
+            <div class="bulbs-inner"><img width="1536" height="1024" src="assets/img/keyart-1600.webp" srcset="assets/img/keyart-800.webp 800w, assets/img/keyart-1600.webp 1600w" sizes="(max-width: 1160px) 92vw, 1120px" alt="Two meat puppets face off in the Food Court, one with a baseball bat and one with a chainsaw, while THE BOX bursts open and a trillionaire watches from a floating golden recliner"></div>
+          </div>
+          <a class="btn btn--magenta play-badge" href="#trailer"><svg aria-hidden="true"><use href="#i-tri"/></svg>Watch the trailer</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Breaking: trillionaires bored again</span><span>Today's protein: spirulina (acid green)</span><span>No sentient beings were harmed in this broadcast</span><span>THE BOX inspected by: nobody</span><span>Plunger suction now 12% suctionier</span><span>Caution: wet protein</span><span>Now open: the Sponsor Pit</span>
+        <span>Breaking: trillionaires bored again</span><span>Today's protein: spirulina (acid green)</span><span>No sentient beings were harmed in this broadcast</span><span>THE BOX inspected by: nobody</span><span>Plunger suction now 12% suctionier</span><span>Caution: wet protein</span><span>Now open: the Sponsor Pit</span>
+      </div>
+    </div>
+
+    <!-- What is this -->
+    <section class="section" aria-labelledby="what-title">
+      <div class="container">
+        <div class="center reveal">
+          <span class="kicker">Live from the MPWRWFAB League (working title)™</span>
+          <h2 class="title-l" id="what-title">The sport of the future,<br>printed fresh daily</h2>
+          <p class="lead">A law says no sentient being may suffer in a fight. The trillionaires found a loophole: bodies without a brain. You pilot one of them, remotely, in two-minute bouts that end in protein paste on the walls.</p>
+        </div>
+        <div class="grid grid-3" style="margin-top:56px">
+          <article class="card pillar reveal" style="--glow: rgba(46,196,182,.5)">
+            <span class="num" aria-hidden="true">01</span>
+            <div class="pillar-art"><img width="700" height="1224" src="assets/img/puppet.webp" alt="A meat puppet in a teal jumpsuit and a chrome visor helmet" loading="lazy"></div>
+            <h3>Printed on the spot</h3>
+            <p>Every bout you get a fresh, brainless, single-use body printed from cricket flour, spirulina or worse. You pilot it through a neural link. It doesn't mind. It can't.</p>
+          </article>
+          <article class="card pillar reveal" data-delay="1" style="--glow: rgba(255,138,0,.55)">
+            <span class="num" aria-hidden="true">02</span>
+            <div class="pillar-art"><img width="802" height="1001" src="assets/img/thebox.webp" alt="THE BOX, an orange game-show crate with marquee bulbs and a slot-machine reel" loading="lazy"></div>
+            <h3>Weapons from a Box</h3>
+            <p>A bat, a chainsaw, a plunger, a sword, a chain, The Toy, and a pistol you will shoot yourself with. THE BOX decides. Both of you see what the other got. Unless somebody bribed it.</p>
+          </article>
+          <article class="card pillar reveal" data-delay="2" style="--glow: rgba(232,53,125,.55)">
+            <span class="num" aria-hidden="true">03</span>
+            <div class="pillar-art"><img width="700" height="1098" src="assets/img/trillionaire-her.webp" alt="An elderly trillionaire in sequins and fur on a floating golden recliner" loading="lazy"></div>
+            <h3>For their entertainment</h3>
+            <p>The trillionaires on their floating recliners paid for all of this, and they expect a show. Stall, and they start throwing trays, bottles and small bombs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- The trailer on League TV: the TV grows to full screen as you scroll (site.js). -->
+    <section class="tv-section" id="trailer" aria-labelledby="tv-title">
+      <div class="tv-sticky">
+        <div class="tv-heading">
+          <span class="kicker kicker--magenta">Now airing on League TV</span>
+          <h2 class="title-l" id="tv-title">Watch the trailer</h2>
+        </div>
+        <div class="tv-wrap">
+          <div class="tv">
+            <div class="tv-screen">
+              <span class="on-air">On air</span>
+              <button class="play-btn" type="button" aria-label="Play the trailer"><svg aria-hidden="true"><use href="#i-tri"/></svg></button>
+            </div>
+            <div class="tv-panel" aria-hidden="true">
+              <span class="tv-knob"></span><span class="tv-knob"></span>
+              <span class="tv-grille"></span>
+              <span class="tv-brand">MEAT-OS<br>TV</span>
+            </div>
+          </div>
+          <div class="tv-feet" aria-hidden="true"><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A bout in six steps -->
+    <section class="section" aria-labelledby="bout-title">
+      <div class="container">
+        <div class="center reveal">
+          <span class="kicker kicker--yellow">Two minutes, start to recycling</span>
+          <h2 class="title-l" id="bout-title">How a bout goes</h2>
+          <p class="lead">Every match follows the same script, because the League's lawyers wrote it and nobody dared to change it.</p>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><h3>Print</h3><p>While matchmaking finds your rival, your puppet is printed live. Meet today's protein.</p></li>
+          <li class="step reveal" data-delay="1"><h3>Warm up</h3><p>A few seconds to stretch the legs you were given a minute ago.</p></li>
+          <li class="step reveal" data-delay="2"><h3>THE BOX</h3><p>One at a time, each puppet draws a weapon. Both see both. Or you knock the secret knock and bribe it.</p></li>
+          <li class="step reveal"><h3>Fight</h3><p>Anything goes until someone hits zero. Stall, and the arena makes you fight.</p></li>
+          <li class="step reveal" data-delay="1"><h3>KO</h3><p>Slow motion, ragdoll, splatter. A vertical replay, ready to share. Time runs out? You both lose.</p></li>
+          <li class="step reveal" data-delay="2"><h3>Recycle</h3><p>Loser and winner both get recycled. Unless it was a flawless victory: then the puppet comes home with you.</p></li>
+        </ol>
+        <p class="center reveal" style="margin-top:44px"><a class="btn btn--teal" href="rulebook.html">Read the full rulebook <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
+      </div>
+    </section>
+
+    <!-- THE BOX slot machine -->
+    <section class="section" style="background: radial-gradient(50% 60% at 30% 50%, rgba(255,138,0,.22), transparent 70%)" aria-labelledby="box-title">
+      <div class="container slot" data-slot>
+        <div class="slot-machine reveal">
+          <img width="802" height="1001" class="box-img" src="assets/img/thebox.webp" alt="THE BOX" loading="lazy">
+          <div class="reels" aria-hidden="true"><div class="reel"></div><div class="reel"></div><div class="reel"></div></div>
+          <div class="goo-layer slot-fx" aria-hidden="true"></div>
+        </div>
+        <div class="slot-panel reveal" data-delay="1">
+          <span class="kicker">Property of the League</span>
+          <h2 class="title-l" id="box-title">Try THE BOX</h2>
+          <p class="lead">Marquee bulbs, a slot-machine reel, a hydraulic lid and an INSERT BRIBE slot. Inspected by: nobody. Pull and see what you would fight with today.</p>
+          <div class="slot-actions">
+            <button class="btn" type="button" data-pull>Pull the lever</button>
+            <button class="btn btn--ghost" type="button" data-bribe aria-expanded="false">Insert bribe</button>
+          </div>
+          <div class="bribe-menu" aria-label="Choose your weapon"></div>
+          <div class="slot-result" aria-live="polite"><img width="800" height="469" src="assets/img/weapon-plunger.webp" alt="" loading="lazy"><div><h3>Your weapon?</h3><p>THE BOX is waiting. It is always waiting.</p></div></div>
+          <p style="margin-top:22px"><a href="the-box.html">See every weapon <svg aria-hidden="true" style="display:inline;width:18px;height:18px;vertical-align:-3px"><use href="#i-arrow"/></svg></a></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker ticker--yellow" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Krikket Krush: 100% cricket, 0% guilt</span><span>Worm Burger: flame grilled, worm sourced</span><span>Spiru-Lean: now with 40% more pond</span><span>Pea-zza: peas on earth, by the slice</span><span>Myco Mart: fungi and more (mostly fungi)</span><span>Fro-Yo 3000: served by robots, approved by robots</span>
+        <span>Krikket Krush: 100% cricket, 0% guilt</span><span>Worm Burger: flame grilled, worm sourced</span><span>Spiru-Lean: now with 40% more pond</span><span>Pea-zza: peas on earth, by the slice</span><span>Myco Mart: fungi and more (mostly fungi)</span><span>Fro-Yo 3000: served by robots, approved by robots</span>
+      </div>
+    </div>
+
+    <!-- Arenas -->
+    <section class="section" aria-labelledby="arenas-title">
+      <div class="container">
+        <div class="center reveal">
+          <span class="kicker kicker--magenta">Venues of questionable taste</span>
+          <h2 class="title-l" id="arenas-title">The arenas</h2>
+          <p class="lead">Each one with its own cover, ramps, things that explode and its own way of punishing whoever runs away.</p>
+        </div>
+        <div class="grid grid-3" style="margin-top:50px">
+          <a class="arena-card reveal" href="arenas.html#food-court">
+            <span class="badge">Grand re-opening</span>
+            <img width="800" height="533" src="assets/img/arena-foodcourt-800.webp" alt="The Food Court arena: an abandoned mall food court dressed up as a TV show" loading="lazy">
+            <div class="meta"><h3>Food Court</h3><p>A dead mall, dressed up for TV on a tight budget.</p></div>
+          </a>
+          <a class="arena-card reveal" data-delay="1" href="arenas.html#sponsor-pit">
+            <span class="badge badge--magenta">Live audience</span>
+            <img width="800" height="533" src="assets/img/arena-sponsorpit-800.webp" alt="The Sponsor Pit arena: a gaudy TV studio with stands full of trillionaires" loading="lazy">
+            <div class="meta"><h3>Sponsor Pit</h3><p>A TV studio where every surface is for sale.</p></div>
+          </a>
+          <a class="arena-card reveal" data-delay="2" href="arenas.html#protein-plant">
+            <span class="badge badge--yellow">Hard hats optional</span>
+            <img width="800" height="533" src="assets/img/arena-proteinplant-800.webp" alt="The Protein Plant Rooftop arena: silos, pipes and conveyor belts at sunset" loading="lazy">
+            <div class="meta"><h3>Protein Plant Rooftop</h3><p>The roof of the factory that prints you.</p></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- League teaser -->
+    <section class="section" style="background: linear-gradient(180deg, transparent, rgba(77,42,134,.35) 30%, rgba(77,42,134,.35) 70%, transparent)" aria-labelledby="league-title">
+      <div class="container split">
+        <div class="reveal">
+          <span class="kicker">Your host</span>
+          <h2 class="title-l" id="league-title">Meet the League</h2>
+          <div class="quote-box" style="margin:10px 0 40px">
+            <q>Welcome back to the MPWRWFAB! That's the sport, folks, not a sneeze.</q>
+            <cite>The commentator, a trillionaire</cite>
+          </div>
+          <p class="lead">Trillionaires who miss "the blood and the sweat", a League that trademarked its own placeholder name, and sentient AI pilots with tics and catchphrases who step in when no human is around (always labelled as AI).</p>
+          <p><a class="btn btn--magenta" href="league.html">Read the lore <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
+        </div>
+        <figure class="framed reveal" data-delay="1">
+          <img width="800" height="533" src="assets/img/commentator-800.webp" srcset="assets/img/commentator-800.webp 800w, assets/img/commentator-1600.webp 1600w" sizes="(max-width: 880px) 92vw, 560px" alt="The trillionaire commentator laughing behind a golden desk with a gold microphone" loading="lazy">
+          <figcaption>The MPWRWFAB, live</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section class="section download" id="download" aria-labelledby="download-title">
+      <div class="starburst" aria-hidden="true"></div>
+      <div class="container">
+        <div class="app-icons reveal">
+          <img width="512" height="512" src="assets/img/icon-face.webp" alt="The Meat Puppets app icon: a puppet yelling, holding a plunger" loading="lazy">
+          <img width="512" height="512" src="assets/img/icon-box.webp" alt="" loading="lazy">
+        </div>
+        <span class="kicker kicker--yellow reveal">Your puppet is printing</span>
+        <h2 class="title-xl reveal" id="download-title">Get in the box</h2>
+        <p class="lead reveal" style="margin-top:22px">Free to play on iPhone, iPad and Android. Play online against humans, or against sentient AI pilots who are always labelled as such.</p>
+        <div class="store-buttons">
+          <a class="store-btn store-btn--big" href="#download" data-store="apple"><svg aria-hidden="true"><use href="#i-apple"/></svg><span><small>Download on the</small><b>App Store</b></span></a>
+          <a class="store-btn store-btn--big" href="#download" data-store="google"><svg aria-hidden="true"><use href="#i-play"/></svg><span><small>Get it on</small><b>Google Play</b></span></a>
+        </div>
+        <ul class="download-facts">
+          <li>Free to play, optional in-app purchases</li>
+          <li>1v1 online and vs AI</li>
+          <li>Touch or gamepad</li>
+          <li>Two-minute bouts</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="hazard" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img width="480" height="320" class="footer-logo" src="assets/img/logo-small.webp" alt="Meat Puppets with Random Weapons from a Box" loading="lazy">
+          <p class="disclaimer">A 3D one-on-one brawler for iOS and Android. No sentient beings were harmed in the making of this game: every puppet is brainless, printed from 100% alternative protein and recycled after the bout.</p>
+        </div>
+        <div>
+          <h4>The game</h4>
+          <ul>
+            <li><a href="rulebook.html">The Rulebook</a></li>
+            <li><a href="the-box.html">THE BOX and its weapons</a></li>
+            <li><a href="arenas.html">Arenas</a></li>
+            <li><a href="league.html">The League</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get it</h4>
+          <ul>
+            <li><a href="index.html#download" data-store="apple">App Store</a></li>
+            <li><a href="index.html#download" data-store="google">Google Play</a></li>
+            <li><a href="index.html#trailer">Trailer</a></li>
+            <li><a href="league.html#sponsors">Our proud sponsors</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Syscake. The MPWRWFAB League (working title)™ and all its sponsors are fictional.</span>
+        <a class="made-by" href="https://www.syscake.it/" target="_blank" rel="noopener noreferrer" aria-label="Made with love by Syscake. Visit the Syscake website."><span>Made with love by Syscake ❤️</span><img src="assets/img/syscake-logo-white.svg" alt="Syscake" width="75" height="22"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

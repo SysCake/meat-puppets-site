@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Bottle (pick up a throwable): cap, neck, shoulders, body with a label band cut out -->
+  <rect x="110" y="18" width="36" height="20" rx="5" fill="#fff"/>
+  <path d="M114 42 H142 V84 C142 96 176 106 176 136 V222 C176 232 168 238 158 238 H98 C88 238 80 232 80 222 V136 C80 106 114 96 114 84 Z" fill="#fff"/>
+  <rect x="80" y="152" width="96" height="10" fill="#000" fill-opacity="0"/>
+</svg>

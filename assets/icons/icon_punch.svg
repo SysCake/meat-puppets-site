@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Fist: four knuckles, palm block, thumb -->
+  <rect x="58" y="70" width="34" height="62" rx="17" fill="#fff"/>
+  <rect x="94" y="62" width="34" height="70" rx="17" fill="#fff"/>
+  <rect x="130" y="62" width="34" height="70" rx="17" fill="#fff"/>
+  <rect x="166" y="70" width="34" height="62" rx="17" fill="#fff"/>
+  <rect x="58" y="108" width="142" height="92" rx="30" fill="#fff"/>
+  <rect x="40" y="128" width="84" height="34" rx="17" fill="#fff" stroke="#1B1F3B" stroke-width="6"/>
+  <rect x="84" y="196" width="94" height="30" rx="10" fill="#fff"/>
+</svg>

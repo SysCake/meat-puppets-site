@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Baseball bat, diagonal: barrel top-right, knob bottom-left -->
+  <path d="M206 34 C222 50 222 70 206 86 L96 186 L70 160 L170 50 C186 34 196 26 206 34 Z" fill="#fff"/>
+  <rect x="44" y="160" width="26" height="62" rx="11" transform="rotate(45 57 191)" fill="#fff"/>
+  <circle cx="40" cy="216" r="16" fill="#fff"/>
+</svg>
